@@ -1,0 +1,207 @@
+\documentclass{beamer}
+\usepackage[latin1]{inputenc}
+%\usepackage{ngerman}
+\usepackage{amsmath}
+
+% Zum ausdrucken einblenden anstelle von obigen Befehl
+%\documentclass[handout,10pt,xcolor=dvipsnames]{beamer}
+
+\title[MW SOLE]{Technology and Jobs in the 4th Industrial Revolution - Firm-Level Evidence}
+\subtitle{(work in progress)}
+
+\author[Terry Gregory]{Melanie Arntz \inst{1} \inst{2} \and  Sabrina Genz \inst{3} \and Terry Gregory \inst{4} \inst{1} \and Markus Janser \inst{3} \and Florian Lehmer \inst{3}  \and Britta Matthes \inst{3} \and Ulrich Zierahn \inst{1} }
+
+\institute[]
+{\inst{1} ZEW   \\ \inst{2} University of Heidelberg \\ \inst{3} IAB\\ \inst{4} IZA}
+
+
+ \date{IZA-Bonn, \today}
+
+%\AtBeginSection[]{\begin{frame}\frametitle{Contents}\tableofcontents[currentsection]\end{frame}} % Zu Beginn jeden Kapitels das Inhaltsverzeichnis aufzeigen
+
+%\usetheme{CambridgeUS}
+%\usecolortheme{dolphin}
+%\usetheme{Boadilla}
+%\usecolortheme{default}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+
+%%Für Tabellen (midrule, etc)
+
+%%Für Tabellen (midrule, etc)
+\usepackage{booktabs,longtable}
+\usepackage{graphicx}
+\usepackage{threeparttable}
+\usepackage{transparent}
+\usepackage{colortbl}
+
+%%Für das Eurosymbol
+\usepackage{eurosym}
+
+
+% for diagrams:
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning}
+\usepackage{subfigure}
+
+% For math symbols
+\usepackage{dsfont}
+\usepackage{hyperref}
+\usepackage{makecell}
+\usepackage{array}
+
+
+\newcommand{\rr}{\raggedright}
+\newcommand{\tn}{\tabularnewline}
+
+\begin{document}
+
+
+
+
+%\frame{\frametitle{Table of contents}\tableofcontents}
+
+
+%----------------------------------------------------------------------
+\section{tables}
+%----------------------------------------------------------------------
+
+
+\frame{\frametitle{ bite indexes by sectors}
+
+%Compare firms with 40 percent strongest increase in self-controlled / IT-integrated work equipment
+%\vspace{-1cm}
+\begin{table}[t!]
+    \centering
+    %\caption{Actual versus predicted European regional employment changes, 1999-2010} \label{actualvspredicted_EU}
+    \scalebox{0.68}{
+    \begin{threeparttable}
+      \begin{tabular}{lccccc}
+         \toprule
+
+        
+    
+   \multicolumn{1}{l}{indexes:}   &Main Construction Sector & Electrical Trade & Roofing Sector & Painting and Varnishing    \\
+         
+
+\midrule
+          \addlinespace
+   \multicolumn{3}{l}{ West:}\\
+    Kaitz-Index&63.54&66.08&61.55&56.67\\
+  Share below mw &5.94&6.24&100&100\\
+Median wage &13.68&12.15&13.29&13.57\\
+Hours worked&39.42&38.95&38.15&38.66\\
+
+
+
+
+
+\midrule
+
+       \addlinespace
+   \multicolumn{3}{l}{ East:}\\
+    Kaitz-Index&83.65&78.45&80.95&75.02\\
+   Share below mw &5.9&6.2&4.0&3.6\\
+Median wage &9.56&8.17&9.56&9.33\\
+Hours worked&40.16&40.03&39.88&39.91\\
+
+     \bottomrule
+      \end{tabular}%
+  %  \begin{tablenotes}
+          % \item \emph{Notes:} dd
+     %      \end{tablenotes}
+          \end{threeparttable}
+      }
+  \end{table}%
+  }
+
+
+
+
+\frame{\frametitle{ demographic indexes by sectors}
+
+%Compare firms with 40 percent strongest increase in self-controlled / IT-integrated work equipment
+%\vspace{-1cm}
+\begin{table}[t!]
+    \centering
+    %\caption{Actual versus predicted European regional employment changes, 1999-2010} \label{actualvspredicted_EU}
+    \scalebox{0.6}{
+    \begin{threeparttable}
+      \begin{tabular}{lccccc}
+         \toprule
+
+        
+    
+   \multicolumn{1}{l}{indexes:}   &Main Construction Sector & Electrical Trade & Roofing Sector & Painting and Varnishing    \\
+         
+
+\midrule
+          \addlinespace
+   \multicolumn{3}{l}{ West:}\\
+    Angestellt&16.59&17.15&10&9.22\\
+  Anteil mit Berufsausbildung &83.22&93.15&86&94.52\\
+Anteil mit Hochschulausbildung &4.51&2.68&0.38&4.1\\
+Frauenanteil&9.35&14.72&9.52&13.26\\
+Anteil \"uber 40&56.74&70.36&70.1&56.63\\
+Anteil in Teilzeit&2.96&4.22&3.24&3.43\\
+
+
+
+
+
+\midrule
+
+       \addlinespace
+   \multicolumn{3}{l}{ East:}\\
+    Angestellt&15.18&16.8&7.74&10\\
+  Anteil mit Berufsausbildung &90.4&93.64&93.7&95.95\\
+Anteil mit Hochschulausbildung &6.13&4.07&1.29&1.35\\
+Frauenanteil&10.63&12.72&7.59&12.33\\
+Anteil \"uber 40&60.24&62.69&72.49&59.12\\
+Anteil in Teilzeit&1.4&2.29&1.58&1.86\\
+
+     \bottomrule
+      \end{tabular}%
+  %  \begin{tablenotes}
+          % \item \emph{Notes:} dd
+     %      \end{tablenotes}
+          \end{threeparttable}
+      }
+  \end{table}%
+  }
+
+
+\frame{\frametitle{}
+
+\begin{figure}[t!]
+ \centering              
+\includegraphics[width=0.85  \linewidth]{graphics/combined_share_kaitz_sole.png}
+\end{figure}
+}
+
+
+
+
+\frame{\frametitle{} \label{hello world}
+
+\begin{figure}[t!]
+               \centering
+\includegraphics[width=0.9  \linewidth]{graphics/mw_germany_real.pdf}
+\end{figure}
+}
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
