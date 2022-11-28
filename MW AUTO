@@ -1,0 +1,250 @@
+\documentclass{beamer}
+\usepackage[latin1]{inputenc}
+%\usepackage{ngerman}
+\usepackage{amsmath}
+
+% Zum ausdrucken einblenden anstelle von obigen Befehl
+%\documentclass[handout,10pt,xcolor=dvipsnames]{beamer}
+
+\title[Jobs and the 4th Ind Revolution]{Technology and Jobs in the 4th Industrial Revolution - Firm-Level Evidence}
+\subtitle{(work in progress)}
+
+\author[Arntz et al. 2019]{Melanie Arntz \inst{1} \inst{2} \and  Sabrina Genz \inst{3} \and Terry Gregory \inst{4} \inst{1} \and Markus Janser \inst{3} \and Florian Lehmer \inst{3}  \and Britta Matthes \inst{3} \and Ulrich Zierahn \inst{1} }
+
+\institute[]
+{\inst{1} ZEW   \\ \inst{2} University of Heidelberg \\ \inst{3} IAB\\ \inst{4} IZA}
+
+
+ \date{DfG-Workshop,  IZA-Bonn, Sep 30th, 2019}
+
+%\AtBeginSection[]{\begin{frame}\frametitle{Contents}\tableofcontents[currentsection]\end{frame}} % Zu Beginn jeden Kapitels das Inhaltsverzeichnis aufzeigen
+
+%\usetheme{CambridgeUS}
+%\usecolortheme{dolphin}
+%\usetheme{Boadilla}
+%\usecolortheme{default}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+
+%%Für Tabellen (midrule, etc)
+
+%%Für Tabellen (midrule, etc)
+\usepackage{booktabs,longtable}
+\usepackage{graphicx}
+\usepackage{threeparttable}
+\usepackage{transparent}
+\usepackage{colortbl}
+
+%%Für das Eurosymbol
+\usepackage{eurosym}
+
+
+% for diagrams:
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning}
+\usepackage{subfigure}
+
+% For math symbols
+\usepackage{dsfont}
+\usepackage{hyperref}
+\usepackage{makecell}
+\usepackage{array}
+
+
+\newcommand{\rr}{\raggedright}
+\newcommand{\tn}{\tabularnewline}
+
+\begin{document}
+
+
+
+
+%\frame{\frametitle{Table of contents}\tableofcontents}
+
+
+%----------------------------------------------------------------------
+\section{tables}
+%----------------------------------------------------------------------
+
+
+\frame{\frametitle{indexes by sectors}
+
+%Compare firms with 40 percent strongest increase in self-controlled / IT-integrated work equipment
+%\vspace{-1cm}
+\begin{table}[t!]
+    \centering
+    %\caption{Actual versus predicted European regional employment changes, 1999-2010} \label{actualvspredicted_EU}
+    \scalebox{0.70}{
+    \begin{threeparttable}
+      \begin{tabular}{lccccc}
+         \toprule
+
+        
+    
+   \multicolumn{1}{l}{indexes:}   &Building Cleaning  & Laundry services & Nursing and caring & Waste management   \\
+         
+
+\midrule
+          \addlinespace
+   \multicolumn{3}{l}{ West:}\\
+    Kaitz-Index&83.3&84.2&58.3&52.0\\
+  Share below mw &11.9&20.6&6.2&2.9\\
+Median wage &9.8&9.1&14.6&15.4\\
+Hours worked&26.3&34.9&30.2&40.1\\
+RTI siabocc std&-0.06&1.41&-0.60&-0.31\\
+abstract siabocc std&-0.71&-1.02&0.34&-0.31\\
+routine siabocc std &0.03&-0.71&-0.30&0.25\\
+
+
+
+
+
+\midrule
+
+       \addlinespace
+   \multicolumn{3}{l}{ East:}\\
+    Kaitz-Index&87.3&91.6&68.3&69.8\\
+  Share below mw &14.1&33.8&8.7&14.4\\
+Median wage &7.5&7.1&11.0&11.5\\
+Hours worked&28.5&38.1&32.1&39.6\\
+RTI siabocc std&-0.08&1.47&-0.63&-0.29\\
+abstract siabocc std&-0.81&-1.11&-0.88&-0.67\\
+routine siabocc std &0.04&-0.70&-0.21&0.22\\
+
+
+
+
+%\multicolumn{3}{l}{ Share of firms by firms size:}\\
+
+
+      \bottomrule
+      \end{tabular}%
+  %  \begin{tablenotes}
+          % \item \emph{Notes:} dd
+     %      \end{tablenotes}
+          \end{threeparttable}
+      }
+  \end{table}%
+
+%{\footnotesize $\rightarrow$ Industry 4.0 firms have larger workforces, profits, sales, exports, external services and are younger, have more apprentices and are more often situated in West Germany and operate in knowledge-intensive sectors}
+}
+\frame{\frametitle{Labor demand effect by \textbf{routine intensity} (2011-2016)} \label{xtwgroupest_qrti_absN_absK_Y}
+
+\begin{figure}[t!]
+ \centering              
+\includegraphics[width=0.85  \linewidth]{combined_kaitz_share.pdf}
+\end{figure}
+}
+
+
+\frame{\frametitle{Labor demand effect by \textbf{routine intensity} (2011-2016)} 
+\label{what is this doing ?}
+\begin{figure}[t!]
+\centering
+\includegraphics[width=0.85  \linewidth]{Taetigkeitsanteile.pdf}
+\end{figure}
+}
+
+\frame{\frametitle{Top 5 jobs by sector}
+
+%Compare firms with 40 percent strongest increase in self-controlled / IT-integrated work equipment
+%\vspace{-1cm}
+\begin{table}[t!]
+    \centering
+    %\caption{Actual versus predicted European regional employment changes, 1999-2010} \label{actualvspredicted_EU}
+    \scalebox{0.53}{
+    \begin{threeparttable}
+      \begin{tabular}{lccccc}
+         \toprule
+
+        
+    
+   \multicolumn{1}{l}{jobs:}   &analytic non-routine  & interative non-routine & cognitive routine & manual routine& manual non-routine   \\
+         
+
+\midrule
+          \addlinespace
+   \multicolumn{1}{l}{\textbf{Hairdressing and Laundry:}}\\
+    Friseure &&&&\\
+  Textilreiniger&.655&.123&.049&.004&.169\\
+Angestellte &&&\\
+Raumpfleger&.076&.001&.021&.681&.221\\
+sontiges &&&& \\ 
+ 
+
+
+
+\midrule
+
+
+
+
+
+       \addlinespace
+   \multicolumn{3}{l}{\textbf{Waste Management:}}\\
+    Berufskraftfahrer&.223&.167&.576&.099&.024\\
+  Staedtereinigungshelfer&.229&.009&.108&.489&.166\\
+Entsorger &.229&.009&.108&.489&.166\\
+Angestellte&&&&\\
+Hilfsarbeiter&.260&.069&.097&.002&.571 \\
+
+
+\midrule
+
+       \addlinespace
+   \multicolumn{3}{l}{\textbf{Nursing and Caring:}}\\
+    Altenpfleger&&&&\\
+  Krankenschwester&&&&\\
+Sozialarbeiter&&&&\\
+Erzieher&&&&\\
+Kueche \\
+
+\midrule
+
+       \addlinespace
+   \multicolumn{3}{l}{\textbf{building and cleaning:}}\\
+    Raumpleger&.083&.001&.020&.690&.206\\
+  Gebaeudereiniger&.083&.001&.020&.690&.206\\
+ Reinigunskraefte&&&&\\
+Angestellte&&&11.5&39.6\\
+Berufskraftfahrer&.220&.171&.574&.011&.024 \\    
+
+
+
+
+
+%\multicolumn{3}{l}{ Share of firms by firms size:}\\
+
+
+
+      \bottomrule
+      \end{tabular}%
+  %  \begin{tablenotes}
+          % \item \emph{Notes:} dd
+     %      \end{tablenotes}
+          \end{threeparttable}
+      }
+  \end{table}%
+}
+
+
+\frame{\frametitle{} \label{hello world}
+
+\begin{figure}[t!]
+               \centering
+\includegraphics[width=0.9  \linewidth]{mw_germany_real.pdf}
+\end{figure}
+}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
